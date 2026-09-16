@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python and pytest cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build and distribution artifacts
+*.egg-info/
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Local app data
+habits.json
+habits.json.tmp
+.*.tmp

@@ -1,0 +1,25 @@
+[project]
+name = "habits-cli-sdd"
+version = "0.1.0"
+description = "CLI to track daily study habits and streaks"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+habits = "habits.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["habits*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
