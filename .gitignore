@@ -1,20 +1,44 @@
-# Virtual environment
-.venv/
-
-# Python and pytest cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+*$py.class
 
-# Build and distribution artifacts
-*.egg-info/
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
 build/
 dist/
+*.egg-info/
+*.egg
 
-# macOS
+# Testing & code coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Editor & IDE configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Operating System files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Local app data
+# Application runtime data & temporary files
 habits.json
 habits.json.tmp
 .*.tmp
+*.log

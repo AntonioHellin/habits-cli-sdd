@@ -1,6 +1,25 @@
-# Project: `habits-cli-sdd`
+# ⚡ Habits Tracker CLI (`habits-tracker-cli`)
 
-A command-line interface in Python to track study habits and monitor consecutive-day streaks.
+A lightweight, reliable command-line interface in Python to track daily study habits and monitor consecutive-day streaks.
+
+---
+
+## Project Overview
+
+**Habits Tracker CLI** is an educational, Spec-Driven Development (SDD) project designed to provide an ultra-lightweight CLI to build and maintain study streaks with zero external runtime dependencies.
+
+### Repository Naming Analysis
+- **Recommended Repository Name**: `habits-tracker-cli`
+- **Naming Formula**: **Formula A** (`[domain/product]-[core-function]`)
+- **Rationale**: Removes the redundant workflow tag (`-sdd`) in favor of a clear, functional kebab-case name specifying domain (`habits`), purpose (`tracker`), and interface form factor (`cli`).
+
+---
+
+## Prerequisites
+
+- **Python**: `>= 3.12`
+- **Virtual Environment Tool**: Standard `venv` or [`uv`](https://github.com/astral-sh/uv)
+
 
 ## Commands
 
@@ -251,3 +270,10 @@ was already marked? does it affect streaks?) and show me the spec diff.
 ## Open Questions
 - [NEEDS CLARIFICATION] <question>
 ```
+
+---
+
+## License
+
+Proprietary. All rights reserved. Not licensed for redistribution, public sublicensing, or resale.
+

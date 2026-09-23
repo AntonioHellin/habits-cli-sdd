@@ -1,7 +1,8 @@
 [project]
-name = "habits-cli-sdd"
+name = "habits-tracker-cli"
 version = "0.1.0"
 description = "CLI to track daily study habits and streaks"
+license = { text = "All Rights Reserved" }
 requires-python = ">=3.12"
 dependencies = []
 
