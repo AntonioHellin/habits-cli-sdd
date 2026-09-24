@@ -267,8 +267,3 @@ was already marked? does it affect streaks?) and show me the spec diff.
 ```
 
 ---
-
-## License
-
-Proprietary. All rights reserved. Not licensed for redistribution, public sublicensing, or resale.
-
